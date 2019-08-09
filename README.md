@@ -21,5 +21,37 @@ library(tinytest)
 ```
 
 
+### Install this package
+
+```r
+remotes::install_github("markvanderloo/tinytest.extension/pkg")
+```
+
+### Obtain source, build, test
+
+```bash
+git clone https://github.com/markvanderloo/tinytest.extension
+cd tinytest.extension
+```
+
+Run tests:
+
+```bash
+make test
+```
+
+Build, run `R CMD check`
+
+```bash
+make check
+```
+
+Build, install
+```bash
+make install
+```
+
+
+
 
 
